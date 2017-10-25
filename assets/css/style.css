@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'myriad-pro';
+        src: url('../fonts/myriad-pro/myriad-pro.otf');
+        src: url('../fonts/myriad-pro/myriad-pro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myriad-pro/myriad-pro.woff') format('woff'),
+        url('../fonts/myriad-pro/myriad-pro.ttf') format('truetype'),
+        url('../fonts/myriad-pro/myriad-pro.svg') format('svg');
+    }
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+   
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+.nav-top{
+    margin: 0 auto;
+}
+.navbar-nav.evento{
+    margin-left: 80px;
+}
+.navbar-head nav{
+    font-family: "myriad-pro";
+    font-size: 14px;
+    color: #000000;
+}
+.nav .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    background: #777;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+nav .name{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1;
+}
+.navbar-head .search-icon{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.navbar-head .navbar-default .navbar-nav>li>a{
+    color: #000000;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 100%;
+    max-width: 680px;
+  }
+}
